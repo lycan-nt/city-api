@@ -1,1 +1,1 @@
-web: ./gradlew build && java -jar -Spring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar -Xms256m -Xmx256m -Xss512k
+web: ./gradlew clean build && java -Xms256m -Xmx256m -Xss512k -jar -Spring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar
