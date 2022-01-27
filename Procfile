@@ -1,1 +1,1 @@
-web: ./gradlew clean build && java -XX:+UseContainerSupport -jar -Spring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar
+web: java -XX:+UseContainerSupport -jar -Spring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar
