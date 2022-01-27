@@ -1,1 +1,1 @@
-web: ./gradlew build && java -jar -Dspring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar
+web: ./gradlew build && java -Xmx256m -jar -Dspring.profiles.active=heroku build/libs/City-API-0.0.1-SNAPSHOT.jar
